@@ -1,0 +1,10 @@
+Crear una carpeta: ejemplo-git
+Crear dos archivos de texto con Notepad: A.txt y B.txt
+Para verificar que estan dentro de la carpeta (GitBash): 
+pwd : En que carpeta estan
+ls: Lista el contenido de la carpeta
+Abrir el Git Bash, y dentro del Git bash ejecutar lo siguiente (en la carpeta ejemplo-git):
+git init 				Inicializar repositorio
+git config --global user.email "you@example.com"		Informar su identidad
+git config --global user.name "Your Name"			Informar su identidad
+git add A.txt 			Agregar al STAGE
